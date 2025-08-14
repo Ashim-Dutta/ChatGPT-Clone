@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Clone - Home</title>
+    <link rel="stylesheet" href="/styles/theme.css">
+    <link rel="stylesheet" href="/styles/home.css">
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="logo">ChatGPT</div>
+            <nav class="menu">
+                <a href="#" class="menu-item">New chat</a>
+                <a href="#" class="menu-item">Search chats</a>
+                <a href="#" class="menu-item">Library</a>
+                <a href="#" class="menu-item">Sora</a>
+                <a href="#" class="menu-item">GPTs</a>
+                <a href="#" class="menu-item">Video Maker GPT by Visla</a>
+            </nav>
+            <div class="profile">
+                <img src="/images/user.png" alt="User" style="width:32px;height:32px;border-radius:50%;margin-bottom:4px;">
+                <div>ASHIM DUTTA</div>
+                <div style="font-size:0.75rem;color:#aaa;">Free</div>
+            </div>
+        </aside>
+        <main class="main">
+            <div class="greeting">Hey, Ashim. Ready to dive in?</div>
+            <form id="message-form" class="message-input-container">
+                <input type="text" id="message-input" class="message-input" placeholder="Ask anything" autocomplete="off" />
+                <button type="submit" class="send-btn">
+                    <span>🔊</span>
+                </button>
+            </form>
+            <div id="messages" style="width:100%;max-width:600px;margin-top:2rem;"></div>
+        </main>
+    </div>
+    <script src="/scripts/home.js"></script>
+</body>
+</html>
